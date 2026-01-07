@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Manager",
+  "version": "1.0.0",
+  "description": "Developer tool for analyzing, grouping, and bulk-managing bookmarks.",
+  "permissions": [
+    "bookmarks",
+    "clipboardWrite"
+  ],
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bookmark-manager@local-dev",
+      "strict_min_version": "57.0"
+    }
+  }
+}
